@@ -78,3 +78,11 @@ CREATE TABLE sold_item (
     FOREIGN KEY (trans_id) REFERENCES transaction(trans_id),
     FOREIGN KEY (item_id) REFERENCES stock(item_id)    
 );
+
+CREATE TABLE admin (
+    admin_id SERIAL PRIMARY KEY,
+    name VARCHAR(30),
+    username VARCHAR(30) UNIQUE,
+    password VARCHAR(30) -- In a real-world scenario, you should store hashed passwords, not plain text.
+);
+
