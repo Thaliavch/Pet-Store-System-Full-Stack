@@ -680,3 +680,9 @@ VALUES
 (178, 10060, 7, 25),
 (179, 10060, 34, 30),
 (180, 10060, 18, 40);
+
+
+INSERT INTO admin (name, username, password) VALUES ('Thalia', 'thalia', 'thalia');
+INSERT INTO admin (name, username, password) VALUES ('Vinod', 'vinod', 'vinod');
+INSERT INTO admin (name, username, password) VALUES ('Nick', 'nick', 'nick');
+
